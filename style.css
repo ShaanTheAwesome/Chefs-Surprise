@@ -82,6 +82,8 @@ h2 {
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 10px;
+  display: block;       /* needed for margin: auto to work on an img */
+  margin: 10px auto 0; /* centres it horizontally */
 }
 
 .filters {
